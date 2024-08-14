@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a creative designer and developer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Omkar Karale, a passionate web developer with a keen eye for design and a love for creating elegant, intuitive, and user-friendly websites. My journey into web development started from a simple curiosity about how websites work, and it has evolved into a full-blown career where I get to combine my creativity with technical skills every day.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://imgs.search.brave.com/BLp5uFQdfXSqmpA6T4d6gQp2CLZC5UYpMHLepquR97Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYxL0hUTUw1X2xv/Z29fYW5kX3dvcmRt/YXJrLnN2Zw" alt="HTML">
+                <div class="gallery-item-info">HTML</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://imgs.search.brave.com/vBqGzFEGVXZwpcQTKVR26ON6C9njAGJMcLZthdnQ0b4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYyL0NTUzNfbG9n/by5zdmc" alt="CSS">
+                <div class="gallery-item-info">CSS</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://imgs.search.brave.com/4xQn4qy5x2p88HdOHtD8lcJJGdRFdmzWc3K9_DBlVTY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS8x/MjgvNTk2OC81OTY4/MjkyLnBuZw" alt="JAVASCRIPT">
+                <div class="gallery-item-info">JAVASCRIPT</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <div id="form-status"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Omkar Karale. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
